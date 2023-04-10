@@ -24,7 +24,7 @@ def hello():
 
 
 
-@app.route("/jobs/<string:id>/")
+@app.route("/jobs/<id>/")
 def  show_jobs(id):
     job=load_jobs_from_db(id)
     if not job:
