@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine, text, select
-url="mysql+pymysql://t99w2dtbc0d55x11y68f:pscale_pw_Li8gaYzYmvnq7cXXo5AD19SHKofq4B8MmVYWFH7okLU@aws.connect.psdb.cloud/career_openings?charset=utf8mb4"
+url=""
 
 engine=create_engine(url,connect_args={
         "ssl": {
